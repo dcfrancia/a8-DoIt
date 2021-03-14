@@ -30,8 +30,21 @@
 			<div id="charCount">24 characters left</div>
 
 			<div id="myContent">
-				<div id="howImportant"><h4>How important is it?</h4></div>
-				<div id="howUrgent"><h4>How urgent is it???</h4></div>
+				<div id="howImportant">
+					<h4>How important is it?</h4>
+					<div class="range-slider">
+  						<input id="iRange" type="range" value="0" min="0" max="5">
+
+					</div>
+				</div>
+				
+				<div id="howUrgent">
+					<h4>How urgent is it?</h4>
+					<div class="range-slider">
+  						<input id="uRange" type="range" value="0" min="0" max="5">
+
+					</div>
+				</div>
 			</div>
 
 			{{!-- <div class="slideContainer">
